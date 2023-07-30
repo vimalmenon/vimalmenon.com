@@ -3,6 +3,8 @@
 [Feature] Need to create basic Layout
 [Feature] Need to create basic Page
 [Feature] Setting up Test
+[Feature] Create a brand Icon
+
 
 [Pages] Home
 [Pages] About
@@ -16,3 +18,4 @@ Bug
 Chore
 Install
 Update
+Improve
