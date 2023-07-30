@@ -1,3 +1,5 @@
+import { FooterStyled } from './Footer.style';
+
 export const Footer: React.FC = () => {
-  return <footer>This is footer</footer>;
+  return <FooterStyled>This is footer</FooterStyled>;
 };

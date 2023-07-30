@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const HeaderStyled = styled('header')(() => ({
+export const FooterStyled = styled('footer')(() => ({
   display: 'grid',
 }));
