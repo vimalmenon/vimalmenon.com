@@ -7,18 +7,20 @@ import { ReactChildren } from '@types';
 
 import { Footer } from './Footer';
 import { Header } from './Header';
+import { BodyContainer, MainStyled } from './PageLayout.style';
 
 const theme = createTheme({});
 
 export const PageLayout: React.FC<ReactChildren> = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
-      <main>
+      <MainStyled>
         <CssBaseline />
         <Header />
-        {children}
+        <BodyContainer>{children}</BodyContainer>
+
         <Footer />
-      </main>
+      </MainStyled>
     </ThemeProvider>
   );
 };

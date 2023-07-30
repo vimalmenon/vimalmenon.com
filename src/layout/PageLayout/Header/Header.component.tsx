@@ -1,3 +1,5 @@
+import { HeaderStyled } from './Header.style';
+
 export const Header: React.FC = () => {
-  return <header>This is header</header>;
+  return <HeaderStyled>This is header</HeaderStyled>;
 };
