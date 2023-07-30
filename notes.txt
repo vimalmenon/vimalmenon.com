@@ -1,5 +1,5 @@
 [Setup] Setting up GitHub Action
-[Setup] Set up NextJs project
 [Setup] Need to set up eslint
-[Setup] Need to set up basic check on CI
+[Setup] Need to set up check on CI
 [Feature] Need to set up API's
+[Feature] Need to create basic Page
