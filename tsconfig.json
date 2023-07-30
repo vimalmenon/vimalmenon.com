@@ -21,6 +21,7 @@
     ],
     "paths": {
       "@types": ["./src/types"],
+      "@data": ["./src/data"],
       "@/*": ["./src/*"]
     }
   },
