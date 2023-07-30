@@ -1,8 +1,8 @@
 [Setup] Need to set up check on CD
-[Feature] Setting up alias
 [Feature] Need to set up API's
 [Feature] Need to create basic Layout
 [Feature] Need to create basic Page
+[Feature] Setting up Test
 
 ---Commit Pattern---
 Setup
