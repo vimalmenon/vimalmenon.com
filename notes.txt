@@ -1,2 +1,5 @@
 [Setup] Setting up GitHub Action
 [Setup] Set up NextJs project
+[Setup] Set up Material UI Library
+[Setup] Need to set up eslint
+[Setup] Need to set up basic check
