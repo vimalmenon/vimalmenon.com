@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const MainStyled = styled('div')(() => ({
   display: 'grid',
-  gridTemplateRows: '25px 1fr 25px',
+  gridTemplateRows: '64px 1fr 25px',
   minHeight: '100vh',
-  gap: "16px"
+  gap: '8px',
 }));
 
 export const BodyContainer = styled('main')(() => ({
   display: 'grid',
-  margin: '0 16px',
+  margin: '0 24px',
 }));
