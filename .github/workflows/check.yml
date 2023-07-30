@@ -1,33 +1,51 @@
 name: "Quality Check"
 
 on:
-    push:
-      branches: [ "main" ]
-    pull_request:
-      # The branches below must be a subset of the branches above
-      branches: [ "main" ]
+  push:
+    branches: [ "main" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
 
 env:
-    NODE_VERSION: 18.x
+  NODE_VERSION: 18.x
 
 jobs:
-    Install:
-        name: Install
-        runs-on: 'ubuntu-latest'
-        steps:
-          - name: Checkout 
-            uses: actions/checkout@v2
-          - name: Use Node.js ${{env.NODE_VERSION}}
-            uses: actions/setup-node@v2
-            with:
-              node-version: ${{env.NODE_VERSION}}
-              cache: 'npm'
-          - name: Cache dependencies
-            id: cache
-            uses: actions/cache@v2
-            with:
-              path: ./node_modules
-              key: modules-${{ hashFiles('package-lock.json') }}
-          - name: Install dependencies
-            if: steps.cache.outputs.cache-hit != 'true'
-            run: npm ci --ignore-
+  Install:
+    name: Install
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{env.NODE_VERSION}}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{env.NODE_VERSION}}
+          cache: 'npm'
+      - name: Cache dependencies
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci --ignore-
+  Check:
+    name: Check
+    runs-on: ubuntu-latest
+    needs: Install
+    if: needs.install.result == 'success'
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Cache dependencies
+      id: cache
+      uses: actions/cache@v2
+      with:
+        path: ./node_modules
+        key: modules-${{ hashFiles('package-lock.json') }}
+    - name: Lint Checking
+      run: npm run eslint
+    - name: Type Checking
+      run: npm run tsc
