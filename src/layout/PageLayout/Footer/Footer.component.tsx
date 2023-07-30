@@ -6,8 +6,12 @@ import jsonData from '../../../../package.json';
 export const Footer: React.FC = () => {
   return (
     <FooterStyled>
-      This is footer
-      <Typography variant="body2" component="span">
+      <Typography variant="body2" component="span"></Typography>
+      <Typography
+        variant="body2"
+        component="span"
+        sx={{ display: 'flex', fontSize: '12px', alignItems: 'end' }}
+      >
         v{jsonData.version}
       </Typography>
     </FooterStyled>

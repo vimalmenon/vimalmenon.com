@@ -4,4 +4,5 @@ export const FooterStyled = styled('footer')(() => ({
   display: 'flex',
   gridAutoFlow: 'row',
   margin: '0 24px',
+  justifyContent: 'space-between',
 }));
