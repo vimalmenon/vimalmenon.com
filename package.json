@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "next build",
     "start": "next start",
+    "start:static" : "serve out",
     "eslint": "eslint ./ --ext .ts,.tsx",
     "eslint:fix": "eslint ./ --ext .ts,.tsx --fix",
     "tsc": "tsc",
@@ -31,6 +33,7 @@
     "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.0",
+    "serve": "^14.2.0"
   }
 }
