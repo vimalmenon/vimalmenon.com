@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterStyled = styled('footer')(() => ({
-  display: 'grid',
+  display: 'flex',
+  gridAutoFlow: 'row',
+  margin: '0 16px',
 }));

@@ -9,7 +9,11 @@ import { Footer } from './Footer';
 import { Header } from './Header';
 import { BodyContainer, MainStyled } from './PageLayout.style';
 
-const theme = createTheme({});
+const theme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 export const PageLayout: React.FC<ReactChildren> = ({ children }) => {
   return (
