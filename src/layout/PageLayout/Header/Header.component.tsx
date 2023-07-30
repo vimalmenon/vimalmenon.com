@@ -1,4 +1,5 @@
 import AppBar from '@mui/material/AppBar';
+import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
 import Toolbar from '@mui/material/Toolbar';
 
@@ -12,9 +13,12 @@ export const Header: React.FC = () => {
       <AppBar component="nav">
         <Toolbar>
           {SocialMedias.map((media) => {
+            const { Icon, url, name } = media;
             return (
-              <Link href={media.url} target="_blank" rel="noreferrer" key={media.name}>
-                {media.name}
+              <Link href={url} target="_blank" rel="noreferrer" key={name}>
+                <IconButton size="small">
+                  <Icon />
+                </IconButton>
               </Link>
             );
           })}
