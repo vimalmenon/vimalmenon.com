@@ -1,0 +1,2 @@
+[Setup] Setting up GitHub Action
+[Setup] Set up NextJs project
