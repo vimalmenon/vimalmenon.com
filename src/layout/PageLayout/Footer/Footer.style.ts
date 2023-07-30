@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import styled from 'styled-components';
 
 export const FooterStyled = styled('footer')(() => ({
@@ -5,4 +6,10 @@ export const FooterStyled = styled('footer')(() => ({
   gridAutoFlow: 'row',
   margin: '0 24px',
   justifyContent: 'space-between',
+}));
+
+export const FooterVersionStyled = styled(Typography)(() => ({
+  display: 'flex',
+  fontSize: '12px',
+  alignItems: 'end',
 }));
