@@ -1,4 +1,5 @@
 [Setup] Setting up GitHub Action
 [Setup] Need to set up check on CI
 [Feature] Need to set up API's
+[Feature] Need to create basic Layout
 [Feature] Need to create basic Page
