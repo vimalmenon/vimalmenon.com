@@ -10,4 +10,15 @@ const Linkedin = {
   name: 'Linkedin',
   url: 'https://www.linkedin.com/in/vimal-menon-72ab931a/',
 };
+
 export const SocialMedias = [YouTube, Twitter, Linkedin];
+
+const AboutPage = {
+  name: 'About',
+  url: '/about',
+};
+const ContactPage = {
+  name: 'Contact',
+  url: '/contact',
+};
+export const FooterLinks = [AboutPage, ContactPage];

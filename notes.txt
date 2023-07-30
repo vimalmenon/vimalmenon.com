@@ -4,6 +4,10 @@
 [Feature] Need to create basic Page
 [Feature] Setting up Test
 
+[Pages] Home
+[Pages] About
+[Pages] Contact
+
 ---Commit Pattern---
 Setup
 Feature
