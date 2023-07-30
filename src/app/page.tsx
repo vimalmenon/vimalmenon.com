@@ -1,5 +1,6 @@
 import { ReactElement } from 'react';
 
+import { PageLayout } from '../layout';
 export default function Home(): ReactElement {
-  return <main>This is Home page</main>;
+  return <PageLayout>This is Home page</PageLayout>;
 }
