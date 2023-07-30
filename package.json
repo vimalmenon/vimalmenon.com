@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "eslint": "eslint ./ --ext .ts,.tsx",
-    "eslint:fix": "eslint ./ --ext .ts,.tsx --fix"
+    "eslint:fix": "eslint ./ --ext .ts,.tsx --fix",
+    "tsc": "tsc",
+    "update": "ncu -u --timeout 300000"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
