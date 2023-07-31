@@ -1,7 +1,12 @@
 import { ReactElement } from 'react';
 
 import { PageLayout } from '@layout';
+import { Home as HomePage } from '@pages';
 
 export default function Home(): ReactElement {
-  return <PageLayout>This is Home page</PageLayout>;
+  return (
+    <PageLayout>
+      <HomePage />
+    </PageLayout>
+  );
 }

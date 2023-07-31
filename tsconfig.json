@@ -23,6 +23,7 @@
       "@types": ["./src/types"],
       "@data": ["./src/data"],
       "@layout": ["./src/layout"],
+      "@pages": ["./src/pages"],
       "@/*": ["./src/*"]
     }
   },
