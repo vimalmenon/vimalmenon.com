@@ -24,6 +24,7 @@
       "@data": ["./src/data"],
       "@layout": ["./src/layout"],
       "@pages": ["./src/pages"],
+      "@config": ["./src/config"],
       "@/*": ["./src/*"]
     }
   },
