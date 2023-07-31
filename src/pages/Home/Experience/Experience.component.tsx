@@ -1,5 +1,7 @@
-import React from 'react';
+'use client';
+
+import { ExperienceContainerStyled } from './Experience.style';
 
 export const Experience: React.FC = () => {
-  return null;
+  return <ExperienceContainerStyled>This is Experience page</ExperienceContainerStyled>;
 };
