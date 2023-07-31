@@ -13,3 +13,9 @@ export const FooterVersionStyled = styled(Typography)(() => ({
   fontSize: '12px',
   alignItems: 'end',
 }));
+
+export const FooterLinkStyled = styled(Typography)(() => ({
+  fontWeight: '14px',
+  display: 'flex',
+  gap: '16px',
+}));

@@ -21,19 +21,27 @@ const Linkedin = {
 export const SocialMedias = [YouTube, Twitter, Linkedin];
 
 // All the Pages
+const HomePage = {
+  name: 'Home',
+  url: '/',
+  isReady: true,
+};
 const AboutPage = {
   name: 'About',
   url: '/about',
+  isReady: true,
 };
 const ContactPage = {
   name: 'Contact',
   url: '/contact',
+  isReady: true,
 };
 const IdeasPage = {
   name: 'Ideas',
   url: '/ideas',
+  isReady: true,
 };
-export const FooterLinks = [AboutPage, ContactPage, IdeasPage];
+export const FooterLinks = [HomePage, AboutPage, ContactPage, IdeasPage];
 
 export const AboutShort = `
   My name is Vimal Menon, I am a developer, I stay in HK and work for a bank.
