@@ -29,7 +29,8 @@
 Setup
 Feature
 Enhancement
-Bug
+Refactor
+Bug / Fix
 Chore
 Install
 Update
