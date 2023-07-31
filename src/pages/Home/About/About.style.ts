@@ -12,4 +12,5 @@ export const AboutImageStyled = styled('section')(() => ({
 export const AboutDetailStyled = styled('section')(() => ({
   display: 'flex',
   flex: '1',
+  flexDirection: 'column',
 }));
