@@ -1,3 +1,3 @@
 export const About: React.FC = () => {
-  return null;
+  return <section>This is about page</section>;
 };
