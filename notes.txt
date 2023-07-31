@@ -7,7 +7,6 @@
 [Feature] Create HTTPS request
 [Feature] Need to finish Desktop View first
 
-
 [Improve] Home
   - Short About Me
   - Experience

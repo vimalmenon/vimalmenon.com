@@ -1,5 +1,3 @@
-'use client';
-
 import { ExperienceContainerStyled } from './Experience.style';
 
 export const Experience: React.FC = () => {

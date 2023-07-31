@@ -1,5 +1,3 @@
-'use client';
-
 import { AboutShort } from '@data';
 
 import { AboutContainerStyled, AboutImageStyled, AboutDetailStyled } from './About.style';
