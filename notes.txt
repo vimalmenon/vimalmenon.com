@@ -4,21 +4,26 @@
 [Feature] Need to create basic Page
 [Feature] Setting up Test
 [Feature] Create a brand Icon
-[Feature] Create custom 404 Page
 [Feature] Create HTTPS request
 [Feature] Need to finish Desktop View first
 
 
 [Improve] Home
-  - 
+  - Short About Me
+  - Experience
+  - Ideas
+  - Social Media
 [Improve] About
-  - 
+  - Show  a good photo
+  - Details about me
+  - Show my experience
 [Improve] Contact
-  - 
+  - Should be able to send message
+  - Link to all the social media
 [Improve] 404
-  - 
+  - improve UI
 [Improve] Ideas
-  - 
+  - Should be able to write Ideas and list it out
 
 
 ---Commit Pattern---
