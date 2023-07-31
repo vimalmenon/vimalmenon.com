@@ -1,16 +1,26 @@
-[Setup] Need to set up check on CD
+[Setup] Need to set up CD
 [Feature] Need to set up API's
 [Feature] Need to create basic Layout
 [Feature] Need to create basic Page
 [Feature] Setting up Test
 [Feature] Create a brand Icon
 [Feature] Create custom 404 Page
+[Feature] Create HTTPS request
+[Feature] Need to finish Desktop View first
 
 
-[Pages] Home
-[Pages] About
-[Pages] Contact
-[Pages] 404
+[Improve] Home
+  - 
+[Improve] About
+  - 
+[Improve] Contact
+  - 
+[Improve] 404
+  - 
+[Improve] Ideas
+  - 
+
+
 ---Commit Pattern---
 Setup
 Feature
