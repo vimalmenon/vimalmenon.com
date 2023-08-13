@@ -13,7 +13,7 @@
   - Ideas
   - Social Media
 [Improve] About
-  - Show  a good photo
+  - Show a good photo
   - Details about me
   - Show my experience
 [Improve] Contact
